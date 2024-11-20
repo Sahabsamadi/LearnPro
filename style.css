@@ -1,0 +1,644 @@
+Course
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 1rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a.active {
+    color: #ffdd40;
+}
+
+nav ul li a:hover {
+    color: #ffdd40;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: linear-gradient(to right, #007BFF, #0056b3);
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* Hero Styling for Courses */
+.courses-hero {
+    background: linear-gradient(to right, #0056b3, #003f87);
+}
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 1.5rem;
+}
+
+/* Course List Section */
+.courses {
+    padding: 3rem 10%;
+    background: #fff;
+}
+
+.course-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.course {
+    flex: 1;
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.course h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #007BFF;
+}
+
+.course p {
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.course .btn {
+    background: #007BFF;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.course .btn:hover {
+    background: #0056b3;
+}
+
+/* Call-to-Action Section */
+.cta {
+    background: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.cta h2 {
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
+
+footer .social a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: color 0.3s;
+}
+
+footer .social a:hover {
+    color: #ffdd40;
+}
+
+ about
+
+ /* Common styling across pages */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul.menu {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul.menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul.menu li a:hover {
+    color: #ff6347;
+}
+
+main {
+    padding: 30px;
+}
+
+section.hero {
+    background-color: #ff6347;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+section.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+section.hero .btn {
+    background-color: white;
+    color: #ff6347;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+section.hero .btn:hover {
+    background-color: #e2e2e2;
+}
+
+section.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+section.features .feature {
+    width: 45%;
+}
+
+section.features .feature h2 {
+    font-size: 30px;
+    color: #333;
+}
+
+section.features .feature p {
+    font-size: 16px;
+    color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .social a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social a:hover {
+    color: #ff6347;
+}
+
+ contact
+
+/* Common styling across pages */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul.menu {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul.menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul.menu li a:hover {
+    color: #ff6347;
+}
+
+main {
+    padding: 30px;
+}
+
+section.hero {
+    background-color: #ff6347;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+section.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+section.hero .btn {
+    background-color: white;
+    color: #ff6347;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+section.hero .btn:hover {
+    background-color: #e2e2e2;
+}
+
+section.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+section.contact-info .contact-details {
+    width: 45%;
+}
+
+section.contact-info .contact-details h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+section.contact-info .contact-details p {
+    font-size: 16px;
+    color: #555;
+}
+
+section.contact-info .contact-form {
+    width: 45%;
+}
+
+section.contact-info .contact-form h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+section.contact-info .contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+section.contact-info .contact-form label {
+    font-size: 16px;
+    color: #333;
+}
+
+section.contact-info .contact-form input, 
+section.contact-info .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+section.contact-info .contact-form button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section.contact-info .contact-form button:hover {
+    background-color: #e94e31;
+}
+
+section.map {
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .social a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social a:hover {
+    color: #ff6347;
+}
+
+
+Home 
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 1rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffdd40;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: linear-gradient(to right, #007BFF, #0056b3);
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background: #ffdd40;
+    color: #333;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #ffc107;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 10%;
+    background: #fff;
+}
+
+.feature {
+    text-align: center;
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.feature h2 {
+    color: #007BFF;
+    margin-bottom: 1rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background: #f9f9f9;
+    padding: 3rem 10%;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 2rem;
+}
+
+.testimonial {
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 0.5rem;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Call-to-Action Section */
+.cta {
+    background: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.cta h2 {
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
+
+footer .social a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: color 0.3s;
+}
+
+footer .social a:hover {
+    color: #ffdd40;
+}
+
+Enroll
+/* Consistent form section design with the home page */
+section.form-section {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section.form-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section.form-section .form-group {
+    margin-bottom: 20px;
+}
+
+section.form-section label {
+    font-size: 16px;
+    color: #333;
+}
+
+section.form-section input,
+section.form-section select,
+section.form-section textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+section.form-section button {
+    background-color: #ff6347;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+section.form-section button:hover {
+    background-color: #e94e31;
+}
