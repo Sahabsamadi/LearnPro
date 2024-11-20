@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnPro - Enrollment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">LearnPro</div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="enrollment.html">Enrollment</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Enroll in Your Future Today!</h1>
+            <p>Sign up for your chosen course and start learning from the best instructors around the world.</p>
+            <a href="courses.html" class="btn">Browse Courses</a>
+        </section>
+
+        <section class="form-section">
+            <h2>Enrollment Form</h2>
+            <form action="submit_enrollment.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="course">Select Course</label>
+                    <select id="course" name="course" required>
+                        <option value="web-development">Web Development</option>
+                        <option value="data-science">Data Science</option>
+                        <option value="graphic-design">Graphic Design</option>
+                    </select>
+                </div>
+        
+                <div class="form-group">
+                    <label for="message">Why do you want to enroll in this course?</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+        
+                <button type="submit" class="btn">Enroll Now</button>
+            </form>
+        </section>
+<br>        
+
+    <footer>
+        <p>&copy; 2024 LearnPro. All Rights Reserved.</p>
+        <div class="social">
+            <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
