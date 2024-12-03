@@ -138,24 +138,6 @@ nav ul li a:hover {
     margin-bottom: 1rem;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #333;
-    color: #fff;
-}
-
-footer .social a {
-    color: #007BFF;
-    text-decoration: none;
-    margin: 0 0.5rem;
-    transition: color 0.3s;
-}
-
-footer .social a:hover {
-    color: #ffdd40;
-}
 
  about
 
@@ -418,25 +400,6 @@ section.map {
     text-align: center;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-footer .social a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-footer .social a:hover {
-    color: #ff6347;
-}
 
 
 Home 
@@ -571,24 +534,6 @@ nav ul li a:hover {
     margin-bottom: 1rem;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #333;
-    color: #fff;
-}
-
-footer .social a {
-    color: #007BFF;
-    text-decoration: none;
-    margin: 0 0.5rem;
-    transition: color 0.3s;
-}
-
-footer .social a:hover {
-    color: #ffdd40;
-}
 
 Enroll
 /* Consistent form section design with the home page */
